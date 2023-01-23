@@ -1,0 +1,64 @@
+#about {
+  background-color: black;
+}
+.about {
+    display: flex;
+    justify-content: space-between;
+    gap: 107px;
+}
+.haww3 {
+    padding-top: 130px;
+}
+.haww3 h3 {
+  display: inline;
+  color: var(--future-logo);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  text-transform: uppercase;
+}
+.haww3 img {
+  width: 25px;
+  margin-bottom: -8px;
+  margin-right: 5px;
+}
+.about-content {
+    padding: 22px 0 123px 0;
+}
+.about-haw1 h1 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 74px;
+  text-transform: capitalize;
+  color: var(--dark-color);
+}
+.about-par {
+    padding-top: 38px;
+}
+.about-par p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  color: var(--content-color);
+}
+.about-btn {
+  padding-top: 53px;
+}
+.about-btn button {
+  background: transparent;
+  margin: 0px 10px;
+  padding: 21px 34px;
+}
+.about-btn button a {
+  color: var(--dark-color);
+  font-weight: 400;
+  font-size: 18px;
+}
+.about-btn button:hover {
+  background: var(--btn-hover);
+}
+.about-video {
+    padding: 85px 0;
+}

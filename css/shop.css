@@ -1,0 +1,90 @@
+#shop {
+  background-image: url(../images/shop-section.svg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: top center;
+  height: 1072px;
+}
+.shop-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 136px;
+}
+.Haw3 h3 {
+  display: inline;
+  color: var(--future-logo);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  text-transform: uppercase;
+}
+.Haw3 img {
+  width: 30px;
+  margin-bottom: -5px;
+}
+.shop-haw1 {
+  padding-top: 22px;
+}
+.shop-haw1 h1 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 74px;
+  text-align: center;
+  text-transform: capitalize;
+  color: var(--dark-color);
+}
+.shop-par {
+  padding-top: 39px;
+}
+.shop-par p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  text-align: center;
+  color: var(--content-color);
+}
+.shop-cards {
+  display: flex;
+  gap: 35px;
+  padding-top: 61px;
+}
+.right-cards,
+.left-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  width: 50%;
+}
+.card {
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: 20px;
+  width: 642px;
+}
+.cardd {
+  display: flex;
+  padding-left: 38px;
+  padding-top: 35px;
+}
+.carrd img {
+  padding-top: 100px;
+}
+.card h2 {
+  padding-left: 18px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 42px;
+  text-transform: capitalize;
+  color: var(--dark-color);
+}
+.card p {
+  padding: 19px 0 32px 87px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  color: var(--content-color);
+}
